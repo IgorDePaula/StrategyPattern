@@ -10,7 +10,7 @@ Alterar um algoritmo em tempo de execução apenas conhecendo sua interface. Seg
 
 ```
 Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. 
-Strategy permite que o algoritmo varie independentemente dos clientes queo utilizam.
+Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam.
 ```
 
 Aplicabilidade
