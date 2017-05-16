@@ -16,7 +16,7 @@ Strategy permite que o algoritmo varie independentemente dos clientes que o util
 Aplicabilidade
 --------------
 
-você necessita de variantes de um algoritmo. Por exemplo, pode definir
+Você necessita de variantes de um algoritmo. Por exemplo, pode definir
 algoritmos que refletem diferentes soluções de compromisso entre espaço/
 tempo. As estratégias podem ser usadas quando essas variantes são
 implementadas como uma hierarquia de classes de algoritmos
