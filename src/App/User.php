@@ -4,7 +4,9 @@
 namespace App;
 
 
-class User
+use App\Contracts\SortableNameInterface;
+
+class User implements SortableNameInterface
 {
     public $nome;
 
@@ -18,4 +20,8 @@ class User
         return $this->nome;
     }
 
+    public function getSortableNameProperty()
+    {
+        return $this;
+    }
 }

@@ -8,12 +8,12 @@
 
 namespace App\Collection;
 use Illuminate\Support\Collection as LaravelCollection;
-
+use App\Contracts\SortableNameInterface;
 class Collection extends LaravelCollection
 {
-    protected function _all_letters_to_ASCII($string)
+    protected function _all_letters_to_ASCII(SortableNameInterface $string)
     {
-        return strtr(utf8_decode($string->getNome()),
+        return strtr(utf8_decode($string->getSortableNameProperty()->getNome()),
             utf8_decode('ŠŒŽšœžŸ¥µÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿ'),
             'SOZsozYYuAAAAAAACEEEEIIIIDNOOOOOOUUUUYsaaaaaaaceeeeiiiionoooooouuuuyy');
     }

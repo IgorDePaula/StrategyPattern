@@ -3,7 +3,9 @@
 namespace App;
 
 
-class UnidadeIntegradora
+use App\Contracts\SortableNameInterface;
+
+class UnidadeIntegradora implements SortableNameInterface
 {
 
     /**
@@ -50,5 +52,10 @@ class UnidadeIntegradora
     {
         $this->unidadeBeneficiada = $unidadeBeneficiada;
         return $this;
+    }
+
+    public function getSortableNameProperty()
+    {
+        return $this->getUnidadeAula();
     }
 }
