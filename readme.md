@@ -9,8 +9,7 @@ Qual o objetivo do Strategy pattern?
 Alterar um algoritmo em tempo de execução apenas conhecendo sua interface. Segundo Erich Gamma (et all - Gamma, Erich et all. Padrões de projeto - Soluções reutilizáveis de software orientado a objetos. 2000, Bookman): 
 
 ```
-Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercam-
-biáveis. Strategy permite que o algoritmo varie independentemente dos clientes que
+Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. Strategy permite que o algoritmo varie independentemente dos clientes que
 o utilizam.
 ```
 
