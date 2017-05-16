@@ -39,4 +39,4 @@ entre estratégias com diferentes compromissos entre tempo e espaço.
 Diagrama (do projeto atual)
 --------
 
-[Diagrama](https://github.com/IgorDePaula/StrategyPattern/img/diagram.png)
+[Diagrama](https://github.com/IgorDePaula/StrategyPattern/blob/master/img/diagram.png)
