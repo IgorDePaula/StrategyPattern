@@ -6,7 +6,7 @@ Este é um exemplo extraído de um sistema real.
 Qual o objetivo do Strategy pattern?
 ------------------------------------
 
-Alterar um algoritmo em tempo de execução apenas conhecendo sua interface. Segundo Erich Gamma (et all - Gamma, Erichet all. Padrões de projeto - Soluções reutilizáveis de software orientado a objetos. 2000, Bookman): 
+Alterar um algoritmo em tempo de execução apenas conhecendo sua interface. Segundo Erich Gamma (et all - Gamma, Erich et all. Padrões de projeto - Soluções reutilizáveis de software orientado a objetos. 2000, Bookman): 
 
 ```
 Definir uma família de algoritmos, encapsular cada uma delas e torná-las intercam-
